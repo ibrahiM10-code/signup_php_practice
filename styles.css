@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: aliceblue;
+}
+
+#image {
+    background-color: antiquewhite;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    vertical-align: middle;
+    width: 600px;
+}
+
+.container {
+    display: flex;
+    border-radius: 15px;
+    width: 1100px;
+    margin: 140px auto;
+    background: linear-gradient(-45deg, #5293ee, #3ce7e1, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.login-header {
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    bottom: 80px;
+}
+
+.login-header h1 {
+    margin-bottom: 10px;
+}
+
+.form-container {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.usr-field {
+    margin-bottom: 30px;
+}
+
+input {
+    margin-top: 15px;
+    height: 30px;
+    width: 300px;
+    padding: 4px;
+    border-style: none;
+    border-radius: 8px;
+    font-family: "Lato", sans-serif;
+}
+
+
+label {
+    font-weight: 700;
+}
+
+button {
+    background-color: rgb(0, 115, 255);
+    border-radius: 8px;
+    border-color: inherit;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 30px;
+    transition: .5s;
+    width: 300px;
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+
+form>label,
+input {
+    display: block;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
