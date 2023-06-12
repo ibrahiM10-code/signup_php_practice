@@ -35,7 +35,7 @@
                         <label for="pswd-input">Password</label>
                         <input type="password" id="pswd-input" name="password">
                     </div>
-                    <button type="submit">Get me in!</button>
+                    <button type="submit" name="login-btn">Get me in!</button>
                 </form>
             </div>
         </div>
